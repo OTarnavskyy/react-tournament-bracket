@@ -8,7 +8,7 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts-ts": "2.16.0",
-    "react-tournament-bracket": "^0.2.4",
+    "react-tournament-bracket": "https://github.com/OTarnavskyy/react-tournament-bracket/tarball/6eaa80354505784a02ddc96b4343184d5c1b5ef0",
     "underscore": "^1.9.1"
   },
   "homepage": "https://moodysalem.github.io/react-tournament-bracket/",
