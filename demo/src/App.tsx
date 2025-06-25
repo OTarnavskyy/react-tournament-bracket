@@ -6,6 +6,7 @@ import { Bracket, BracketGame, BracketGenerator, Model } from 'react-tournament-
 
 const GAMES = JSOG.decode(DEMO_DATA);
 const ROOT: any = _.findWhere(GAMES, { id: '35b0745d-ef13-4255-8c40-c9daa95e4cc4' });
+console.log(ROOT);
 
 export default class App extends React.PureComponent {
   public state = {
@@ -16,6 +17,7 @@ export default class App extends React.PureComponent {
   public render() {
     const { homeOnTopState } = this.state;
     const { gameComponent: GameComponent } = this;
+    // const Game = () => <div>Game</div>;
 
     return (
       <div>

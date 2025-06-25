@@ -32,7 +32,7 @@ class BracketGame extends React.PureComponent<BracketGameProps> {
     hoveredTeamId: null,
 
     styles: {
-      backgroundColor: '#58595e',
+      backgroundColor: '#5859ff', // '#58595e',
       hoverBackgroundColor: '#222',
 
       scoreBackground: '#787a80',
